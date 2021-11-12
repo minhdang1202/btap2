@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  /* position: relative; */
+}
+html {
+  scroll-behavior: smooth;
+}
+.navigation-menu {
+  background-color: #42a8bf;
+  border: 0;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+  z-index: 9999;
+  margin-bottom: 0;
+}
+.navbar {
+  transition: 0.5s;
+  padding: 0 !important;
+}
+.navbar li > a {
+  color: rgb(250, 248, 248) !important;
+}
+
+.navbar-nav li a {
+  padding: 16px 30px !important;
+  height: 55px;
+}
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+  transition: 0.5s;
+  background-color: #1a525e !important;
+  border-top: 3px solid #eb6a01;
+  color: rgb(250, 248, 248) !important;
+}
+
+.navbar-brand span {
+  color: #ff0157;
+}
+
+.d-none {
+  display: none !important;
+}
+
+.contact-icon {
+  margin: 0 12px;
+  cursor: pointer;
+}
+.list-unstyled {
+  margin-top: 12px !important;
+}
+.list-unstyled li {
+  margin-bottom: 8px;
+}
+.list-unstyled li a {
+  text-decoration: none;
+}
+
+.list-unstyled li a:hover {
+  color: #60eb36 !important;
+}
+
+.carousel-control {
+  background-color: #383737 !important;
+  color: #000000;
+  cursor: pointer;
+  display: block;
+  font-size: 20px;
+  height: 35px;
+  line-height: 35px;
+  padding: 0px 14px;
+  position: absolute;
+  text-align: center;
+  top: 40px !important;
+  width: 50px !important;
+  box-shadow: 0 0 7px #cccccc inset;
+  border-radius: 5px;
+  border: 1px solid #bfbfbf;
+}
+
+.carousel-item {
+  right: 114px;
+}
+
+.title {
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(to bottom, #fdfdfd 0%, #f4f4f4 100%) repeat scroll 0 0 !important;
+}
+
+.order-item {
+  padding: 25px 30px 55px 30px !important;
+  border: 3px solid #e6e6e6;
+  border-radius: 10px;
+}
+
+@media (min-width: 992px) {
+  .d-lg-block {
+    display: block !important;
+  }
+}
+@media (max-width: 750px) {
+  .navigation-menu {
+    background-color: #ffffff;
+  }
+  .navbar li a {
+    color: rgb(22, 1, 1) !important;
+  }
+  .navbar .show {
+    border-bottom: brown 1px solid;
+    transition: 0.5s;
+  }
+  .navbar-toggler-icon {
+    background-color: #88e88d !important;
+  }
+}
